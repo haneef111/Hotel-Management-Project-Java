@@ -24,6 +24,7 @@ Room types include Luxury Double Room, Deluxe Double Room, Luxury Single Room, a
 ## Technologies Used
 Java: Core programming language for the application.
 File Handling: For storing and retrieving hotel booking data.
+
 Object-Oriented Programming (OOP): Employed for room and booking structure.
 
 ## Installation & Prerequisites
@@ -33,12 +34,19 @@ An IDE such as IntelliJ IDEA, Eclipse, or Visual Studio Code.
 
 ## Usage
 The program will prompt you to enter a choice from the menu:
+
 1: Display room details
+
 2: Check room availability
+
 3: Book a room
+
 4: Order food for the room
+
 5: Checkout and deallocate room
+
 6: Exit the program
+
 For each operation, the system will guide you to enter necessary information like room number or type.
 
 The system will maintain persistent data through file handling. If the application is restarted, previous booking data will still be available.
